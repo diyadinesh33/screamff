@@ -1,0 +1,79 @@
+/* Global styles */
+body {
+    
+    transform: rotate(90deg);
+    font-family: Arial, sans-serif;
+    background-color: #f6f5f5;
+    text-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: bottom;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+    justify-content:bottom;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.meter-container {
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.meter {
+    height: 100%;
+    background-color: #4caf50;
+}#meter-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #1791c9;
+    transition: width 0.2s ease-in-out;
+
+}
+
+#sound-chart {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+
+}
+
+/* Chart.js styles */
+.canvas-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 5000px;
+    height: auto;
+}
+.sound-level {
+    font-size: 0%;
+    
+}
+.mr{
+    font-size: 0%;
+}
